@@ -2,11 +2,11 @@ from setuptools import setup
 import setuptools
 
 setup(
-    name="SFMLAudio",
+    name="PySFMLAudio",
     version="1.0",
-    author="RiritoXXL",
+    author="Jugmonity",
     packages=setuptools.find_packages(),
     package_data={
-        '': ['dll\\*.dll'],
+        '': ['x64sfml\\*.dll'],
     }
 )
